@@ -27,6 +27,7 @@ public class Held {
 		this.power = power;
 		this.agility = agility;
 		this.evil = evil;
+		setWaffe(waffe);
 		if ((this.waffe).isAngelegt()==true) {
 			this.waffe = waffe;
 			this.agility += waffe.getAgilityWaffe();
